@@ -55,6 +55,7 @@ function displayCatInfo(cat) {
   catTitle.style.margin = '10px';
   catDescription.forEach(descr => {
     descr.style.margin = '10px';
+    descr.style.fontStyle = 'italic';
   });
 }
 
